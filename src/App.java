@@ -79,5 +79,8 @@ public class App {
         number5 = (number5 + number4) * 60;
         number6 = number6 + number5;
 
+        int diferrenceBetween = number6 - number3;
+        System.out.println(diferrenceBetween);
+
     }
 }
