@@ -72,11 +72,12 @@ public class App {
         // so 1 minute = 60 seconds
         number2 = (number2 + number1) * 60;
 
+        // sum seconds
+        number3 = number3 + number2;
+
         number4 = number4 * 60;
         number5 = (number5 + number4) * 60;
-
-        int diferrenceBetween = number6 - number3;
-        System.out.println(diferrenceBetween);
+        number6 = number6 + number5;
 
     }
 }
